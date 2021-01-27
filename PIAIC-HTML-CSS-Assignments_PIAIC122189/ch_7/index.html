@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Chapter 7 - Mohsan Hassan - CNC - PIAIC122189</title>
+</head>
+
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+
+
+    <form method="GET" action="#">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>Name:</label>
+            <input type="text" name="name" />
+            <br />
+            <br />
+            <label>Email:</label>
+            <input type="text" name="email" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label>How did you hear about us?</label>
+            <select name="hearAboutUs">
+                <option>Google</option>
+                <option>Yahoo</option>
+                <option>Facebook</option>
+            </select>
+            <br /><br />
+            <label>Would you visit again?</label>
+            <br />
+            <input type="radio" name="visitAgain" value="yes" /> Yes
+            <input type="radio" name="visitAgain" value="no" /> No
+            <input type="radio" name="visitAgain" value="maybe" /> Maybe
+            <br/>
+            <br/>
+            <label>Comments:</label>
+            <br/>
+            <textarea name="comments" cols="30" rows="4"></textarea>
+            <br/>
+            <br/>
+            <input type="checkbox" name="signUpForEmailUpdates" checked="checked"/> Sign me up for email updates
+            <br/>
+            <input type="submit" value="Submit review"/>
+        
+        </fieldset>
+    </form>
+</body>
+
+</html>
