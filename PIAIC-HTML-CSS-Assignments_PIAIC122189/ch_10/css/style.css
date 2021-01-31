@@ -1,0 +1,50 @@
+table
+tr
+td
+{
+    border: 2px solid;    
+   }
+
+td{
+    padding: 4px;
+}
+
+.light-brown
+{
+background-color:#dc7c50 ;
+}
+.dark-brown{
+    background-color: #a0522d;
+}
+.light-blue
+{
+background-color:#6495ed ;
+}
+.dark-pink
+{
+    background-color: #da70d6;
+}
+.tea-pink
+{
+    background-color: #ffb6c1;
+}
+.pink{
+    background-color: #fa8072;
+}
+.voilet{
+    background-color: #7b68ee;
+}
+.mustard{
+    background-color: #ffd700;
+}
+.dark-mustard
+{
+    background-color: #daa520;
+}
+.dark-green{
+    background-color: #2e8b57;
+}
+.white
+{
+    background-color: #fffafa;
+}

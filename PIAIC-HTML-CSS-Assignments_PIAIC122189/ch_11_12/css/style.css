@@ -1,0 +1,11 @@
+body{
+    padding: 10px;
+}
+.heading
+{
+    text-shadow: 4px 4px 3px darkgrey;
+}
+.cap::first-letter {
+    text-transform: uppercase;
+    font-size:150%;
+}
